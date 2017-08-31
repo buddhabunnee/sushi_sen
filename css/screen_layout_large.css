@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+
+
+/* HTML tags */
+
+header 		{
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: 100%
+% 0px;
+	background-image: url(../images/headerbgLG.jpg);
+	background-size: 100% 100%;
+}
+				
+header a.logo {
+	width: 146px;
+	height: 175px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 6.5%;
+	background-image: url(../images/sslogo1.svg);
+	border-bottom: none;
+}
+				
+h1			{	font-size: 2.6em;}
+
+h2 		{ 	font-size: 1.7em;}
+
+h3 		{ 	font-size: 1.5em;}
+
+nav 			{	width: 100%;
+				text-align: center;
+				height: auto;
+				padding-top: 8px;
+				padding-bottom: 5px;}
+		
+nav a:link 	{ 	padding-left: 20px; 
+				padding-right: 20px;
+				font-size: 1.6em;}
+
+
+
+				
+/* CLASSES and IDs */
+
+.largewrap { 
+	width: 70%;
+	margin: auto; }
+	
+.largewrap2 { 
+	width: 50%;
+	margin: auto; }
+	
+.intro { text-align: center; width: 90%; margin:auto;}				
+
+.intro2 {
+	margin: auto;
+	text-align: left;
+	width: 360px;
+}	
+
+.content					{
+	padding: 20px 20px 40px 20px;
+	background-image: -webkit-linear-gradient(270deg,rgba(196,188,200,0.42) 0%,rgba(255,255,255,1.00) 0.51%,rgba(196,188,200,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(196,188,200,0.42) 0%,rgba(255,255,255,1.00) 0.51%,rgba(196,188,200,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(196,188,200,0.42) 0%,rgba(255,255,255,1.00) 0.51%,rgba(196,188,200,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(196,188,200,0.42) 0%,rgba(255,255,255,1.00) 0.51%,rgba(196,188,200,1.00) 100%);
+
+}
+					
+.column						{ 	width: 33%; 
+								float: left;}
+							
+.padding					{
+	padding: 10px;
+}
+
+#columnleft		{	float: left;
+					margin-left: auto;
+					margin-right: auto;
+					width: 45%;
+					padding-left: 1%;}
+					
+#columnleft img	{	box-shadow: 3px 3px 2px #8f7d95; 
+					border: 1px #8f7d95 solid;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					}
+
+#columnright	{	float: right;
+					margin: auto;
+					width: 45%;
+					padding-left: 1%;}
+					
+.map {
+	width: 50%;
+	margin: auto;
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+
+/* HTML tags */
+
+header 		{	height: 200px;
+				background: url(../images/headerbgMD.jpg) no-repeat 90% 0px;}
+
+header a.logo {	width: 125px; 
+				height: 150px; 
+				float: left; 
+				margin-top: 20px; 
+				margin-left: 60px;
+				background-image: url(../images/sslogo1.svg);
+				border-bottom: none; }
+				
+h1			{	font-size: 2.3em;}
+
+h2 		{ 	font-size: 1.5em;}
+
+h3 		{ 	font-size: 1.3em;}
+
+nav			{  top: 160px; 
+				background: #FFF;}
+nav a:link 	{ 	padding-left: 14px; 
+				font-size: 1.2em;
+				/*font-weight: bold;*/}
+
+footer 			{
+	color: #d5bfc2;
+	background-color: #8f7d95;
+	padding: 20px 10px 10px 0px;
+	text-align: center;
+	border-top: 1px solid #a6abc5;
+}
+
+footer a:link		{	color: #FFF;
+					text-decoration: none;
+					font-size: 1.1em;}
+footer a:hover	{	color: #d5bfc2;}				
+				
+				
+				
+
+/* CLASSES and IDs */
+
+.intro { text-align: center; width: 100%;}
+				
+.largewrap { 
+	width: 100%;
+	margin: auto; }
+
+.largewrap2 { 
+	width: 85%;
+	margin: auto; }
+				
+.content 	{	padding-top: 20px;}
+
+.column		{ 	width: 100%; 
+				float: left; 
+				padding: 0px 90px 0px 0px;
+				background-position: 0px 3px;}
+
+.padding 	{
+}
+
+#columnleft		{	
+					float: left;
+					margin-left: auto;
+					margin-right: auto;
+					width: 45%;
+					padding-left: 1%;}
+					
+#columnleft img	{	box-shadow: 3px 3px 2px #8f7d95; 
+					border: 1px #8f7d95 solid;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;}
+
+#columnright	{	float: right;
+					margin: auto;
+					width: 45%;
+					padding-left: 10px;}
+					
+#contactform {	width:80%;}
+
+.map {
+	width: 70%;
+	margin: auto;
+}
