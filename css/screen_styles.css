@@ -228,6 +228,22 @@ src: url('fonts/huxtable.ttf');
 font-weight: normal;
 font-style: normal;
 }
+
+@font-face
+{
+font-family: 'berkshire-swash'; 
+src: url('fonts/berkshire-swash.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face
+{
+font-family: 'alice'; 
+src: url('fonts/alice.ttf');
+font-weight: normal;
+font-style: normal;
+}
 .content .largewrap .padding {
 	padding-bottom: 3%;
 }
